@@ -52,6 +52,13 @@ const Index = () => {
       icon: 'Map',
       description: 'Инженерно-геодезические изыскания для проектирования и строительства. Топографическая съемка участков масштабов 1:500 — 1:2000.',
       features: ['Топографические планы', 'Подземные коммуникации', 'Изыскания для строительства']
+    },
+    {
+      id: 'cadastre',
+      title: 'Кадастр',
+      icon: 'FileText',
+      description: 'Кадастровые работы для оформления и регистрации земельных участков. Профессиональная подготовка документации в соответствии с требованиями законодательства.',
+      features: ['Вынос границ участков в натуру', 'Схема ЗУ для предварительного согласования']
     }
   ];
 
@@ -223,7 +230,7 @@ const Index = () => {
                   </div>
                   <div>
                     <div className="font-semibold mb-1">Телефон</div>
-                    <a href="tel:+79999999999" className="text-primary hover:underline">+7 (999) 999-99-99</a>
+                    <a href="tel:+79870200702" className="text-primary hover:underline">+7 (987) 020-07-02</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -232,7 +239,7 @@ const Index = () => {
                   </div>
                   <div>
                     <div className="font-semibold mb-1">Email</div>
-                    <a href="mailto:info@geoid-rb.ru" className="text-primary hover:underline">info@geoid-rb.ru</a>
+                    <a href="mailto:geo102@bk.ru" className="text-primary hover:underline">geo102@bk.ru</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -332,13 +339,14 @@ const Index = () => {
                 <li>Мониторинг</li>
                 <li>Лазерное сканирование</li>
                 <li>Аэрофотосъёмка</li>
+                <li>Кадастр</li>
               </ul>
             </div>
             <div>
               <h4 className="font-semibold mb-4">Контакты</h4>
               <ul className="space-y-2 text-white/80">
-                <li>+7 (999) 999-99-99</li>
-                <li>info@geoid-rb.ru</li>
+                <li>+7 (987) 020-07-02</li>
+                <li>geo102@bk.ru</li>
                 <li>г. Уфа, РБ</li>
               </ul>
             </div>
