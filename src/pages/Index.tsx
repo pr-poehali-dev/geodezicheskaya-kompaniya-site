@@ -77,7 +77,7 @@ const Index = () => {
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex items-center gap-2">
             <Icon name="MapPin" size={32} className="text-primary" />
-            <h1 className="text-2xl font-bold">ГЕОИД</h1>
+            <h1 className="text-2xl font-bold">GEO102</h1>
           </div>
           <nav className="hidden md:flex gap-6">
             <a href="#services" className="hover:text-primary transition-colors">Услуги</a>
@@ -180,7 +180,7 @@ const Index = () => {
         <div className="container mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
-              <h2 className="text-4xl font-bold mb-6">О компании ГЕОИД</h2>
+              <h2 className="text-4xl font-bold mb-6">О компании GEO102</h2>
               <p className="text-lg text-muted-foreground mb-4">
                 Мы предоставляем полный спектр геодезических услуг в Республике Башкортостан для строительства, проектирования и земельного кадастра. 
               </p>
