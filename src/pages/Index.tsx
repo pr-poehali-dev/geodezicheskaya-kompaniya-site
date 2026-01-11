@@ -70,7 +70,7 @@ const Index = () => {
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex items-center gap-2">
             <Icon name="MapPin" size={32} className="text-primary" />
-            <h1 className="text-2xl font-bold">ГеоТех</h1>
+            <h1 className="text-2xl font-bold">ГЕОИД</h1>
           </div>
           <nav className="hidden md:flex gap-6">
             <a href="#services" className="hover:text-primary transition-colors">Услуги</a>
@@ -95,7 +95,7 @@ const Index = () => {
               Профессиональные<br />геодезические услуги
             </h2>
             <p className="text-xl md:text-2xl mb-8 text-white/90">
-              Высокоточные измерения и изыскания для вашего строительства
+              Высокоточные измерения и изыскания в Республике Башкортостан
             </p>
             <div className="flex flex-wrap gap-4">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-white">
@@ -173,9 +173,9 @@ const Index = () => {
         <div className="container mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
-              <h2 className="text-4xl font-bold mb-6">О компании ГеоТех</h2>
+              <h2 className="text-4xl font-bold mb-6">О компании ГЕОИД</h2>
               <p className="text-lg text-muted-foreground mb-4">
-                Мы предоставляем полный спектр геодезических услуг для строительства, проектирования и земельного кадастра. 
+                Мы предоставляем полный спектр геодезических услуг в Республике Башкортостан для строительства, проектирования и земельного кадастра. 
               </p>
               <p className="text-lg text-muted-foreground mb-6">
                 Используем современное высокоточное оборудование ведущих мировых производителей. Наши специалисты имеют многолетний опыт работы и необходимые лицензии.
@@ -232,7 +232,7 @@ const Index = () => {
                   </div>
                   <div>
                     <div className="font-semibold mb-1">Email</div>
-                    <a href="mailto:info@geotech.ru" className="text-primary hover:underline">info@geotech.ru</a>
+                    <a href="mailto:info@geoid-rb.ru" className="text-primary hover:underline">info@geoid-rb.ru</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -241,7 +241,7 @@ const Index = () => {
                   </div>
                   <div>
                     <div className="font-semibold mb-1">Адрес</div>
-                    <p className="text-muted-foreground">г. Москва, ул. Геодезическая, д. 1</p>
+                    <p className="text-muted-foreground">г. Уфа, Республика Башкортостан</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -321,9 +321,9 @@ const Index = () => {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Icon name="MapPin" size={28} className="text-primary" />
-                <h3 className="text-xl font-bold">ГеоТех</h3>
+                <h3 className="text-xl font-bold">ГЕОИД</h3>
               </div>
-              <p className="text-white/80">Профессиональные геодезические услуги</p>
+              <p className="text-white/80">Профессиональные геодезические услуги в РБ</p>
             </div>
             <div>
               <h4 className="font-semibold mb-4">Услуги</h4>
@@ -338,8 +338,8 @@ const Index = () => {
               <h4 className="font-semibold mb-4">Контакты</h4>
               <ul className="space-y-2 text-white/80">
                 <li>+7 (999) 999-99-99</li>
-                <li>info@geotech.ru</li>
-                <li>г. Москва</li>
+                <li>info@geoid-rb.ru</li>
+                <li>г. Уфа, РБ</li>
               </ul>
             </div>
             <div>
@@ -348,7 +348,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-white/20 pt-6 text-center text-white/60">
-            <p>© 2024 ГеоТех. Все права защищены.</p>
+            <p>© 2024 ГЕОИД. Все права защищены.</p>
           </div>
         </div>
       </footer>
